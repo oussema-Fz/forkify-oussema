@@ -111,7 +111,10 @@ setTimeout(function() {
  
 }
 
+const newfeature=function() {
+  console.log('Welcome to the application');
 
+}
 
 const init = function() {
   bookMarkView.addHandler(controlBookmarks);
@@ -121,7 +124,7 @@ const init = function() {
   searchView.searchHandler(controllSearchResults);
   paginationView.addHandler(paginationControl);
   addRecipeView.addHandlerUpload(addRecipeController);
-
+newfeature();
 }
 
 init();
